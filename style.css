@@ -1,0 +1,65 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    background-color: #2b373c;
+}
+.conv{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 70px;
+    border: 1px solid #1d2428;
+    border-radius: 5px;
+    box-shadow:  0 0 1000px 200px #1d2428;
+}
+.main{
+    height: 100vh;
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .value{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+.main button{
+    font-size: 30px;
+    color: white;
+    background-color: #1d2428;
+    border-radius: 50%;
+    border: 0;
+    padding: 15px 18px;
+}
+input{
+    border: 0;
+    border-radius: 5px;
+    background-color: #1d2428;
+    color: white;
+    font-size: larger;
+    outline: 0;
+    padding: 10px 20px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    /* -webkit-appearance: none; */
+    opacity: 0.2;
+}
+select{
+    border: none;
+    background-color: #2b373c;
+    color: white;
+    font-size: large;
+}
+option{
+    color: white;
+    font-size: large;
+}
